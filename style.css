@@ -114,6 +114,7 @@ h6 {
 .nav {
   display: flex;
   justify-content: center;
+  text-align: center;
   padding: 5px;
   background-color: rgba(23, 3, 32, 0.721);
 }
@@ -129,7 +130,7 @@ h6 {
 .nav li {
   list-style: none;
   font-size: rem;
-  padding: 0;
+  padding: 2px;
   font-size: 18px;
   font-family: var(--font3);
 }
@@ -163,17 +164,17 @@ h6 {
 }
 
 .contact {
-    margin: 25px;
-    margin-top: 150px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    padding: 20px;
+  margin: 25px;
+  margin-top: 150px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
 }
 
 .datetime {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
   color: rgb(255, 3, 3);
@@ -215,7 +216,7 @@ h6 {
 
 .text-body h3 {
   font-size: 32px;
-  text-align: right;
+  text-align: center;
   padding: 5px;
   margin-right: 20px;
 }
@@ -308,4 +309,56 @@ footer a {
 
 footer h6 {
   color: rgba(183, 231, 240, 0.518);
+}
+
+@media (max-width: 1200px) {
+  .hero {
+    font-size: 24px;
+    max-width: 1200px;
+  }
+  .text-body {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav ul {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+  .hero {
+    font-size: 18px;
+    max-width: 992px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .nav ul {
+    width: 100%;
+  }
+  .nav li {
+    font-size: 12px;
+  }
+  .banner {
+    height: 80%;
+  }
+  .hero {
+    font-size: 14px;
+    max-width: 400px;
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+    border: none;
+    height: 100%;
+  }
+  .text-body {
+    font-size: 1.1rem;
+  }
+  .text-body .sig {
+    margin-left: 60%;
+  }
 }
