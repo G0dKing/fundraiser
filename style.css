@@ -74,7 +74,7 @@ h6 {
 }
 
 .filter {
-  position: fixed;
+  position: absolute;
   background-image: url("filter.jpg");
   background-position: center;
   background-size: cover;
@@ -82,6 +82,8 @@ height: 100%;
   width: 100%;
   mix-blend-mode: soft-light;
   opacity: 0.5;
+  top: 0;
+  left: 0;
   z-index: -1;
 }
 
