@@ -56,19 +56,18 @@ h6 {
 
 .container {
   position: fixed;
-  display: block;
   font-family: var(--font4);
   background-color: var(--color1);
   background-image: var(--bgPic);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   min-width: 100%;
   max-width: 100%;
   overflow-y: scroll;
-  overtflow-x: hidden;
+  overflow-x: hidden;
   justify-content: center;
   padding: 20px;
 }
@@ -92,6 +91,7 @@ height: 100%;
   height: 20%;
   color: rgb(255, 255, 255);
   text-shadow: 0px 5px 2px rgba(33, 8, 82, 0.792), 2px 5px 3px rgb(72, 61, 126);
+  padding: 10px;
 }
 
 .banner {
